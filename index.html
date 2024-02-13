@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steel And Wood Kalenic</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/output.css" />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.min.css"
+    />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+  <body class="bg-gray-100">
+    <!-- header -->
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+      <div class="container mx-auto flex justify-between h-full items-center">
+        <!-- logo -->
+        <a href="">
+          <h1 class="h1">Steel And Wood</h1>
+        </a>
+        <!-- nav -->
+        <nav>
+          <!-- nav mobile trigger -->
+          <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+            <i class="ri-menu-4-line text-4xl text-primary"></i>
+          </div>
+          <ul
+            class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300"
+            id="nav_menu"
+          >
+            <li><a href="">Pocetna</a></li>
+            <li><a href="">O nama</a></li>
+            <li><a href="">Naš rad</a></li>
+            <li><a href="">Novo</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- page wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+      <!-- grid img -->
+      <div
+        class="xl:bg-grid xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10"
+      ></div>
+
+      <!-- hero -->
+      <section
+        class="hero h-[640px] xl:h-[840px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-20"
+      >
+        <div
+          class="container mx-auto h-full flex items-center justify-center xl:justify-start"
+        >
+          <!-- text -->
+          <div
+            class="hero__text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start"
+          >
+            <h1 class="h1 mb-8">Steel And Wood Kalenic</h1>
+            <p class="mb-8">
+              There are many variations of the passages of lorem Ipsum from
+              available,variations of the passages.
+            </p>
+            <button class="btn btn-primary mx-auto xl:mx-0">
+            Pogledaj više
+              <i class="ri-arrow-right-line text-accent"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- steps -->
+      <section class="steps mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto">
+          <!-- grid items -->
+          <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+            <!-- step 1 -->
+            <div class="steps__step text-center">
+              <div class="mb-4">
+                <i class="ri-compasses-2-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">Dogovor</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                There are many variations of the passages of lorem Ipsum from
+                available, majority.
+              </p>
+              <a href="" class="font-medium flex justify-center gap-2"
+                >Pogledaj više
+                <i class="ri-arrow-right-line text-accent"></i>
+              </a>
+            </div>
+            <!-- step 2 -->
+            <div class="steps__step text-center">
+              <div class="mb-4">
+                <i class="ri-magic-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">Pravljenje</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                There are many variations of the passages of lorem Ipsum from
+                available, majority.
+              </p>
+              <a href="" class="font-medium flex justify-center gap-2"
+                >Pogledaj više
+                <i class="ri-arrow-right-line text-accent"></i>
+              </a>
+            </div>
+            <!-- step 3 -->
+            <div class="steps__step text-center">
+              <div class="mb-4">
+                <i class="ri-tools-line text-5xl text-accent"></i>
+              </div>
+              <h3 class="h3 mb-5">Dolazak i montiranje</h3>
+              <p class="mb-5 max-w-md mx-auto">
+                There are many variations of the passages of lorem Ipsum from
+                available, majority.
+              </p>
+              <a href="" class="font-medium flex justify-center gap-2"
+                >Pogledaj više
+                <i class="ri-arrow-right-line text-accent"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+        <div class="container mx-auto xl:px-0">
+          <div
+            class="flex flex-col xl:flex-row text-center xl:text-left justify-between items-center gap-8 xl:gap-[74px]"
+          >
+            <!-- text -->
+            <div
+              class="about__text flex-1 order-2 xl:order-none max-w-xl xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8"
+            >
+              <h2 class="h2">Oblikujemo čvrstinu i sigurnost sa stilom</h2>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the of readable content of a page when lookings at its
+                layouts the points of using that it has a more-or-less normal.
+              </p>
+              <!-- phone -->
+              <div
+                class="flex items-center justify-center xl:justify-start gap-4"
+              >
+                <div
+                  class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center"
+                >
+                  <i class="ri-phone-fill text-accent text-4xl"></i>
+                </div>
+                <div class="text-left">
+                  <div class="text-2xl font-bold">0987 654 321</div>
+                  <div>Pozovite nas odmah</div>
+                </div>
+              </div>
+              <!-- btn -->
+              <button class="btn btn-primary">
+                Pogledaj više 
+                <i class="ri-arrow-right-line text-accent"></i>
+              </button>
+            </div>
+            <!-- img -->
+            <div
+              class="about__img order-1 xl:order-none max-w-[453px] mx-auto xl:max-w-none xl:mx-0"
+            >
+              <img src="assets/kuca.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+   
+
+      <!-- work -->
+      <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto xl:px-0">
+          <!-- text -->
+          <div class="text-center mb-24">
+            <h2 class="work__title h2 mb-4">Naši Projekti</h2>
+            <p class="work__subtitle max-w-3xl mx-auto">
+              Ponosno predstavljamo naše projekte, odraz majstorstva, preciznosti i posvećenosti. Svaki komad priča priču o strasti prema metalu i umetnosti stvaranja.
+            </p>
+          </div>
+          <!-- grid -->
+          <div
+            class="work__grid grid grid-cols-1 xl:grid-cols-2 gap-x-[104px] gap-y-[56px]"
+          >
+            <!-- item -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/01.png" alt="" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Kitchen</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/02.png" alt="" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Kitchen</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/03.png" alt="" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Kitchen</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="w-full max-w-[548px] h-full mx-auto">
+              <img class="mb-6" src="assets/work/04.png" alt="" />
+              <div class="flex justify-between items-center w-full">
+                <div>
+                  <h3 class="h3">Modern Kitchen</h3>
+                  <p>Decor/Architecture</p>
+                </div>
+                <button
+                  class="bg-accent-secondary hover:bg-accent/20 w-[70px] h-[70px] rounded-full"
+                >
+                  <i
+                    class="ri-arrow-right-s-line text-3xl text-primary pl-1"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+   
+      
+
+      <!-- contact -->
+      <section class="contact mt-[80px] xl:mt-[150px] relative z-20">
+        <div
+          class="contact__container container mx-auto bg-primary sm:rounded-[70px] py-[80px]"
+        >
+          <div class="contact__text max-w-[640px] mx-auto text-center">
+            <h2 class="h2 text-white mb-4">Kontaktirajte nas</h2>
+            <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">
+              It is a long established fact will be distracted.
+            </p>
+            <button class="btn btn-accent mx-auto">
+              Connect with us <i class="ri-arrow-right-line text-primary"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+        <div class="container mx-auto px-0">
+          <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+            <div
+              class="footer__item w-full max-w-[400px] mx-auto mb-8 text-center xl:text-left"
+            >
+              <!-- logo -->
+              <a class="flex justify-center xl:justify-start mb-8" href="">
+                <img src="assets/logo.svg" alt="" />
+              </a>
+              <p class="mb-8 text-xl">
+                It is a long established fact that a reader will be distracted
+                lookings.
+              </p>
+              <!-- socials -->
+              <ul
+                class="text-primary flex gap-[54px] justify-center xl:justify-start"
+              >
+                <li>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="ri-linkedin-fill"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex-1 flex flex-col xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end"
+            >
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Pages</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Testimonials</a></li>
+                  <li><a href="">Our Work</a></li>
+                  <li><a href="">News</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer__item">
+                <h3 class="h3 mb-3">Services</h3>
+                <ul class="flex flex-col gap-4">
+                  <li><a href="">Kitchen</a></li>
+                  <li><a href="">Living Area</a></li>
+                  <li><a href="">Bathroom</a></li>
+                  <li><a href="">Bedroom</a></li>
+                </ul>
+              </div>
+              <div class="footer__item max-w-[260px] mx-auto xl:mx-0">
+                <h3 class="h3 mb-3">Contact</h3>
+                <div class="flex flex-col gap-6 text-[20px]">
+                  <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+                  <p>contact@interno.com</p>
+                  <p>(123) 456 - 7890</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- copyright -->
+        <p
+          class="footer__copyright text-center text-lg py-10 bg-white xl:border-t"
+        >
+          Copyright &copy; Interno 2024. All rights reserved.
+        </p>
+      </footer>
+
+      <!-- temporary div -->
+      <!-- <div class="h-[3000px]"></div> -->
+    </main>
+
+    <!-- scroll reveal js -->
+    <script src="js/scrollreveal.min.js"></script>
+    <!-- swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
